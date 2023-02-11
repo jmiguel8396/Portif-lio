@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
+  <div class="toggle" onclick="toggleMenu();"></div>
 
   <div class="hero">
     <nav>
       <h2 class="logo">Portifó<span>lio</span></h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a href="#">Contato</a></li>
+      <ul class="menu">
+        <li><a href="#"onclick="toggleMenu()">Home</a></li>
+        <li><a href="#"onclick="toggleMenu()">About Us</a></li>
+        <li><a href="#"onclick="toggleMenu()">Serviços</a></li>
+        <li><a href="#"onclick="toggleMenu()">Habilidades</a></li>
+        <li><a href="#"onclick="toggleMenu()">Contato</a></li>
       </ul>
       <a href="#" class="btn">Inscreva-se</a>
      </nav>
@@ -39,7 +39,6 @@
       </div>
      </div>
   </div>
-
   <section class="sobre">
     <div class="principal">
       <img src="imagens/foto2.jpg">
@@ -93,5 +92,14 @@
     <p>Deixe-me Fazer Um Belo Trabalho.</p>
     <a href="#" class="botao-dois">Contrate-me</a>
   </div>
+
+  <script>
+    function toggleMenu(){
+        const menuToggle = document.querySelector('.toggle')
+        const sidebar = document.querySelector('.btn')
+        menuToggle.classList.toggle('active')
+        sidebar.classList.toggle('active')
+    }
+</script>
 </body>
 </html>
