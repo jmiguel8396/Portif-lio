@@ -62,9 +62,9 @@ nav ul li a:hover
 }
 .content
 {
-    position: absolute;
-    top: 50%;
-    left: 8%;
+    position: relative;
+    top: 160px ;
+    
     transform: translateY(-50%);
 }
 h1
@@ -76,7 +76,7 @@ h1
 h3
 {
     color: white;
-    width: 280px;
+    width: 80%;
     font-size: 25px;
     margin-bottom: 50px;
 }
@@ -110,7 +110,7 @@ h4
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    left: 243px;
+    left: 223px;
     top: 6px;
     background-color: #f9004d;
     color: white;
@@ -201,7 +201,7 @@ button:hover
 .cartao
 {
     height: 365px;
-    width: 315px;
+    width: 270px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
