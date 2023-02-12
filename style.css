@@ -62,6 +62,7 @@ nav ul li a:hover
 }
 .content
 {
+    padding-top: 50px;
     position: relative;
     top: 160px ;
     padding-left: 40px;
@@ -99,7 +100,7 @@ h4
 .boletimnoticias form input:first-child
 {
     display: inline-block;
-    width: 86%;
+    width: 90%;
     padding: 14px 0px 14px 15px;
     border: 2px solid #f9004d;
     outline: none;
@@ -113,7 +114,7 @@ h4
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    left: 243px;
+    left: 64%;
     top: 6px;
     background-color: #f9004d;
     color: white;
@@ -384,7 +385,7 @@ h5
         border: none;
         padding: 10px 30px;
         border-radius: 30px;
-        left: 243px;
+        left: 64%;
         top: 6px;
         background-color: #f9004d;
         color: white;
