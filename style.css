@@ -64,14 +64,17 @@ nav ul li a:hover
 {
     position: relative;
     top: 160px ;
+    padding-left: 40px;
     
     transform: translateY(-50%);
 }
 h1
 {
     color: white;
-    padding: 30px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 79px;
+    max-width: 400px;
 }
 h3
 {
@@ -110,7 +113,7 @@ h4
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    left: 223px;
+    left: 243px;
     top: 6px;
     background-color: #f9004d;
     color: white;
@@ -344,6 +347,7 @@ h5
         color: white;
         margin: 20px 0px 20px;
         font-size: 79px;
+        max-width: 500px;
     }
     h3
     {
